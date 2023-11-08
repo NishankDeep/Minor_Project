@@ -1,0 +1,47 @@
+/* Suggestions.css */
+
+.suggestions {
+   margin-right: 20px;
+    position: absolute;
+    top: 4rem; /*Adjust based on your navbar height*/
+    right: 0;
+    /* left:61rem; */
+    /* bottom: 19.8rem; */
+    width: 250px;
+    padding: 20px;
+    border-radius: 1rem;
+    background-color: #111; /* Dark background color */
+    color: #fff; /* Light text color */
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3); /* Shadow on the left side */
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.3s;
+    overflow: hidden;
+  }
+  
+  /* .suggestions.visible {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+   */
+  .suggestions h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    text-decoration: underline;
+  }
+  

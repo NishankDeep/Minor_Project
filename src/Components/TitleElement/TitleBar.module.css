@@ -1,0 +1,49 @@
+/* TitleBar.css */
+
+.title_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .website_name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .right .link_container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .button.login {
+    margin-right: 10px;
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+  }
+  

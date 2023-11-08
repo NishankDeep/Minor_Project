@@ -1,0 +1,52 @@
+/* TwitterFeed.css */
+
+.twitter_feed {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #111; /* Dark background color */
+    color: #fff; /* Light text color */
+  }
+  
+  .tweet {
+    display: flex;
+    border: 1px solid #333; /* Dark border color */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #222; /* Darker tweet background color */
+  }
+  
+  .user_avatar {
+    padding: 10px;
+  }
+  
+  .user_avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .tweet_content {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .user_info {
+    margin-bottom: 8px;
+  }
+  
+  .username {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .handle {
+    color: #666;
+  }
+  
+  .tweet_text {
+    margin: 0;
+  }
+  

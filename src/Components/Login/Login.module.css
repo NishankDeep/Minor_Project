@@ -1,0 +1,89 @@
+/* LoginPage.css */
+
+.login_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(21, 20, 20, 0.576); /* Set a black background color */
+  }
+  
+  .login_container {
+    width: 350px; /* Increased width */
+    padding: 30px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Set a white shadow on the black container */
+    background-color: #000;
+    text-align: center;
+    transition: box-shadow 0.3s; /* Add a transition for box-shadow */
+  }
+  
+  .login_container:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* Highlight the box on hover */
+  }
+  
+  h2 {
+    color: #3498db;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input_group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    color: #fff; /* Set a white text color for labels */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #666; /* Set a darker border color for input boxes */
+    border-radius: 4px;
+    background-color: #333; /* Set a dark background color for input boxes */
+    color: #fff; /* Set a white text color for input boxes */
+  }
+  
+  .button_group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .login_page::after {
+    content: "";
+    display: block;
+    height: 60px; /* Adjust the height based on your footer height */
+  }
